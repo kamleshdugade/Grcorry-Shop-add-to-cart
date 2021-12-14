@@ -1,4 +1,4 @@
-.card-top{
+.card-top {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -6,35 +6,36 @@
   word-wrap: break-word;
   background: #fff;
   background-clip: border-box;
-  border: 1px solid rgb(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: .25rem;
 }
+
 .item img {
-  width: 100px;
-  margin-top: 15px;
-}
-.item{
-  margin: 0px 15px;
+  width: 64px;
 }
 
-.item a:hover{
-  color: #0059ff;
+.item {
+  margin: 0px 15px;
+  text-align: center;
 }
-.item h6{
-  padding-left: 10px;
+
+.item a:hover {
+  color: blue;
 }
-.item img{
+
+.card {
+  padding: 20px;
+  margin: 50px;
+}
+
+.card img {
   width: 200px;
-  height: 250px;
+  height: 200px;
   margin-bottom: 15px;
   transition: 0.3s ease-in-out;
 }
-.card{
-  padding: 20px;
-  margin: 20px;
 
-}
-.card img:hover{
+.card img:hover {
   transition: 0.3s ease-in-out;
   transform: scale(1.1);
 }
