@@ -9,7 +9,8 @@ import { ProductsComponent } from './component/products/products.component';
 import {HttpClientModule} from "@angular/common/http";
 import {RouterModule} from "@angular/router";
 import {FormsModule} from "@angular/forms";
-
+import { FilterPipe } from './shared/filter.pipe';
+import {ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -17,14 +18,16 @@ import {FormsModule} from "@angular/forms";
     AppComponent,
     HeaderComponent,
     CartComponent,
-    ProductsComponent
+    ProductsComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
