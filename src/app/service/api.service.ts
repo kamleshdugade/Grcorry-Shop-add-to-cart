@@ -15,5 +15,4 @@ export class ApiService {
         return res;
       }))
   }
-
 }

@@ -8,9 +8,8 @@ import { CartComponent } from './component/cart/cart.component';
 import { ProductsComponent } from './component/products/products.component';
 import {HttpClientModule} from "@angular/common/http";
 import {RouterModule} from "@angular/router";
-import {FormsModule} from "@angular/forms";
 import { FilterPipe } from './shared/filter.pipe';
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule,ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
